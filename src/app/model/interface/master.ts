@@ -9,3 +9,9 @@ export interface IParentDept {
     departmentName: string;
     departmentLogo: string;
 }
+
+export interface IChildDept {
+    childDeptId: number;
+    departmentName: string;
+    parentDeptId: number;
+}
